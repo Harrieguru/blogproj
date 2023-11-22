@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,600;1,500&family=Noto+Serif&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,400;1,200;1,500;1,700&family=Quicksand:wght@500&family=Radio+Canada&family=Roboto+Condensed&family=Roboto+Slab&family=Roboto:ital@0;1&family=Ubuntu&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    position: absolute;
+    display: flex;
+    right: 0;
+}
+
+li{
+    list-style: none;
+    margin-right: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: darkcyan;
+}
+
+li a {
+    font-size: 18px;
+    color: coral;
+}
+
+h1, h2{
+    margin-top: 5px;
+    padding: 15px 5px;
+
+}
+
+.row, label{
+    font-size: 18px;
+    padding: 10px 2px;
+}
+
+.row input{
+    padding: 5px;
+}
+
+footer{
+    margin-top: 5px;
+    padding: 15px 5px;
+}
+
+.container{
+    margin: auto;
+    width: 500px;
+    padding: 15px;
+    border: 1px solid #FE6F5E;
+    border-radius: 8px;
+}
+
+.new-blog {
+    text-align: center;
+}
+
+#body{
+    width: 100%;
+}
+
+.error{
+    font-size: 19px;
+    padding: 25px;
+    margin-top: 5px;
+}
+
+.details content {
+    margin: 15px 8px;
+}
+
+.content{
+    display: inline-block;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+a.delete{
+    position: absolute;
+    top: 135px;
+    cursor: pointer;
+    padding: 5px 5px;
+    margin: auto 5px;
+    border: 1px solid lightcoral;
+    border-radius: 5px;
+    right: 0;
+}
